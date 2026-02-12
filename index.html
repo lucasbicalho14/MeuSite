@@ -14,23 +14,24 @@
             <h2>Fazer Cadastro</h2>  
               <form>
 
-               <input type="text" id="user" name="usuario" placeholder="Crie seu Usuário...">
                 <label for="user">Usuário</label>
+                 <input type="text" id="user" name="usuario" placeholder="Crie seu Usuário...">
                 
-               <input type="password" id="pass" name="senha" placeholder="Crie uma Senha...">
                 <label for="pass">Senha</label>
+                 <input type="password" id="pass" name="senha" placeholder="Crie uma Senha...">
 
-               <input type="date" id="datadenasc" name="DataNascimento">
-                <label for="datadenasc">Data de Nascimento</label>
-            
-               <select name="Sexo" id="sexo">
+                 <label for="datadenasc">Data de Nascimento</label>
+                <input type="date" id="datadenasc" name="DataNascimento">
+
+                 <label for="sexo">Sexualidade</label>
+                <select name="sexualidade" id="sexo">
                   <option value="masc">Masculino</option>
                   <option value="femi">Feminino</option>
                   <option value="indef">Prefiro não Dizer</option>
-               </select>
+                </select>
 
+                 <label for="aceitartermos">Li e concordo com os termos de privacidade </label>
                 <input type="checkbox" value="termos" id="aceitartermos" name="termos">
-                <label for="aceitartermos">Li e concordo com os termos de privacidade </label>
 
                 <button type="submit">Cadastrar</button>
                 
